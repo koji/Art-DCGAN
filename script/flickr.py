@@ -1,27 +1,3 @@
-# import os
-
-# import time
-# import traceback
-
-# from urllib.request import urlretrieve
-
-# from flickrapi import FlickrAPI
-# from pprint import pprint
-
-# FLICKR_PUBLIC = '483e41f3e50c63e9a24b6fb4acc1a71f'
-# FLICKR_SECRET = '8975c11b7c72f8c4'
-
-# flickr = FlickrAPI(FLICKR_PUBLIC, FLICKR_SECRET, format='parsed-json')
-# extras = 'url_c'
-# data = flickr.photos.search(text='puppy', per_page=5, extras=extras)
-# photos = data['photos']
-
-# for photo in photos['photo']:
-#     url_c = photo['url_c']
-#     filepath = './image-data/' + 'puppy' + '/' + photo['id'] + '.jpg'
-#     print(filepath)
-
-
 import os
 
 import time
