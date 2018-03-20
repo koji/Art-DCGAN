@@ -5,6 +5,14 @@ DCGAN for artistic images
 2 Resize Images  
 3 Generate images with DCGANS(Keras)  
 
+## script
+googleimg.py  
+collect images from Google Image Search  
+   
+     
+     
+flickr.py  
+collect images via Flickr API  
 
 ## result
 
