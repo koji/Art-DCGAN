@@ -9,8 +9,8 @@ from urllib.request import urlretrieve
 import sys
 from retry import retry
 
-flickr_api_key = "483e41f3e50c63e9a24b6fb4acc1a71f"
-secret_key = "8975c11b7c72f8c4"
+flickr_api_key = "api_key"
+secret_key = "secret_key"
 
 keyword = sys.argv[1]
 print(keyword)
