@@ -22,3 +22,7 @@ collect images via Flickr API
 
 #### from generative art images
 ![generative art](https://github.com/sleepy-maker/Art-DCGAN/blob/master/generative_ver.gif)
+
+
+### ToDo
+- [ ] Create a pypi module
