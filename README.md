@@ -2,7 +2,7 @@
 DCGAN for artistic images
 
 ### ToDo
-- [ ] Create a pypi module
+- [ ] Create a pypi module --> [easyGAN](https://github.com/sleepy-maker/easyGAN) (I just started working on this)
 
 1 Get images from Google Image Search  
 2 Resize Images  
