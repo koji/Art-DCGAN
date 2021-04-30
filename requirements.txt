@@ -5,17 +5,38 @@
 #    pip-compile --output-file requirements.txt requirements.in
 #
 beautifulsoup4==4.6.0
-certifi==2018.1.18        # via requests
-chardet==3.0.4            # via requests
-decorator==4.2.1          # via retry
+    # via -r requirements.in
+certifi==2018.1.18
+    # via requests
+chardet==3.0.4
+    # via requests
+decorator==4.2.1
+    # via retry
 flickrapi==2.4.0
-idna==2.6                 # via requests
-oauthlib==2.0.7           # via requests-oauthlib
+    # via -r requirements.in
+idna==2.6
+    # via requests
+oauthlib==2.0.7
+    # via requests-oauthlib
 pillow==6.2.0
-py==1.5.2                 # via retry
-requests-oauthlib==0.8.0  # via flickrapi
-requests-toolbelt==0.8.0  # via flickrapi
+    # via -r requirements.in
+py==1.5.2
+    # via retry
+requests-oauthlib==0.8.0
+    # via flickrapi
+requests-toolbelt==0.8.0
+    # via flickrapi
 requests==2.22.0
+    # via
+    #   -r requirements.in
+    #   flickrapi
+    #   requests-oauthlib
+    #   requests-toolbelt
 retry==0.9.2
-six==1.11.0               # via flickrapi
-urllib3==1.25.6
+    # via -r requirements.in
+six==1.11.0
+    # via flickrapi
+urllib3==1.25.8
+    # via
+    #   -r requirements.in
+    #   requests
