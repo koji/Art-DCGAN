@@ -20,7 +20,7 @@ oauthlib==2.0.7
     # via requests-oauthlib
 pillow==8.2.0
     # via -r requirements.in
-py==1.5.2
+py==1.10.0
     # via retry
 requests-oauthlib==0.8.0
     # via flickrapi
