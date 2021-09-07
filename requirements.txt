@@ -18,20 +18,20 @@ idna==2.6
     # via requests
 oauthlib==2.0.7
     # via requests-oauthlib
-pillow==8.2.0
+pillow==8.3.2
     # via -r requirements.in
 py==1.10.0
     # via retry
-requests-oauthlib==0.8.0
-    # via flickrapi
-requests-toolbelt==0.8.0
-    # via flickrapi
 requests==2.22.0
     # via
     #   -r requirements.in
     #   flickrapi
     #   requests-oauthlib
     #   requests-toolbelt
+requests-oauthlib==0.8.0
+    # via flickrapi
+requests-toolbelt==0.8.0
+    # via flickrapi
 retry==0.9.2
     # via -r requirements.in
 six==1.11.0
