@@ -18,7 +18,7 @@ idna==2.6
     # via requests
 oauthlib==2.0.7
     # via requests-oauthlib
-pillow==8.3.2
+pillow==9.3.0
     # via -r requirements.in
 py==1.10.0
     # via retry
